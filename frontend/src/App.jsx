@@ -33,7 +33,7 @@ function Layout() {
       <Navbar/>
 
       <div className='p-4 2xl:px-10'>
-        {/* <Outlet />*/}
+         <Outlet />
       </div>
     </div>
 
@@ -93,10 +93,6 @@ const MobileSidebar = () => {
     </>
   );
 };
-
-
-
-
 
 
 
